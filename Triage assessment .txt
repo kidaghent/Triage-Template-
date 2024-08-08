@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pediatric Telephone Triage Nurse Review of Systems</title>
+</head>
+<body>
+    <h1>Pediatric Telephone Triage Nurse Review of Systems (ROS)</h1>
+
+    <form>
+        <fieldset>
+            <legend>Patient Information:</legend>
+            <label for="patientName">Patient Name:</label>
+            <input type="text" id="patientName" name="patientName"><br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob"><br><br>
+
+            <label for="dateOfCall">Date of Call:</label>
+            <input type="date" id="dateOfCall" name="dateOfCall"><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Review of Systems:</legend>
+
+            <h3>General:</h3>
+            <textarea id="general" name="general" rows="2" cols="50" placeholder="Fever, Fatigue, Weight Loss/Gain, Night Sweats, Other..."></textarea><br><br>
+
+            <h3>Skin:</h3>
+            <textarea id="skin" name="skin" rows="2" cols="50" placeholder="Rash, Itching, Bruising, Redness, Dry Skin, Other..."></textarea><br><br>
+
+            <h3>Eyes:</h3>
+            <textarea id="eyes" name="eyes" rows="2" cols="50" placeholder="Redness, Discharge, Itching, Pain, Vision Changes, Other..."></textarea><br><br>
+
+            <h3>Ears/Nose/Throat:</h3>
+            <textarea id="ent" name="ent" rows="2" cols="50" placeholder="Ears: Pain, Discharge, Hearing Loss. Nose: Congestion, Runny Nose, Nosebleeds. Throat: Sore Throat, Hoarseness, Difficulty Swallowing. Other..."></textarea><br><br>
+
+            <h3>Cardiovascular:</h3>
+            <textarea id="cardiovascular" name="cardiovascular" rows="2" cols="50" placeholder="Chest Pain, Palpitations, Cyanosis, Other..."></textarea><br><br>
+
+            <h3>Respiratory:</h3>
+            <textarea id="respiratory" name="respiratory" rows="2" cols="50" placeholder="Cough, Wheezing, Shortness of Breath, Difficulty Breathing, Other..."></textarea><br><br>
+
+            <h3>Gastrointestinal:</h3>
+            <textarea id="gastrointestinal" name="gastrointestinal" rows="2" cols="50" placeholder="Nausea, Vomiting, Diarrhea, Constipation, Abdominal Pain, Other..."></textarea><br><br>
+
+            <h3>Genitourinary:</h3>
+            <textarea id="genitourinary" name="genitourinary" rows="2" cols="50" placeholder="Painful Urination, Frequent Urination, Blood in Urine, Bedwetting, Other..."></textarea><br><br>
+
+            <h3>Musculoskeletal:</h3>
+            <textarea id="musculoskeletal" name="musculoskeletal" rows="2" cols="50" placeholder="Joint Pain, Muscle Pain, Swelling, Stiffness, Other..."></textarea><br><br>
+
+            <h3>Neurological:</h3>
+            <textarea id="neurological" name="neurological" rows="2" cols="50" placeholder="Headache, Dizziness, Seizures, Weakness, Numbness, Other..."></textarea><br><br>
+
+            <h3>Psychiatric:</h3>
+            <textarea id="psychiatric" name="psychiatric" rows="2" cols="50" placeholder="Anxiety, Depression, Behavioral Changes, Sleep Disturbances, Other..."></textarea><br><br>
+
+            <h3>Endocrine:</h3>
+            <textarea id="endocrine" name="endocrine" rows="2" cols="50" placeholder="Excessive Thirst, Excessive Hunger, Excessive Urination, Other..."></textarea><br><br>
+
+            <h3>Hematologic/Lymphatic:</h3>
+            <textarea id="hematologic" name="hematologic" rows="2" cols="50" placeholder="Easy Bruising, Swollen Lymph Nodes, Other..."></textarea><br><br>
+
+            <h3>Allergic/Immunologic:</h3>
+            <textarea id="allergic" name="allergic" rows="2" cols="50" placeholder="Seasonal Allergies, Food Allergies, Medication Allergies, Frequent Infections, Other..."></textarea><br><br>
+
+            <h3>Additional Notes:</h3>
+            <textarea id="additionalNotes" name="additionalNotes" rows="4" cols="50"></textarea><br><br>
+        </fieldset>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
